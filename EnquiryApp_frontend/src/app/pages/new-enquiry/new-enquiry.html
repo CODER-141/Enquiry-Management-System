@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Enquiry Form</title>
+    <link rel="stylesheet" href="new-enquiry.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="header mb-4">
+            <h1>Submit Enquiry</h1>
+            <p>We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
+        </div>
+
+        <div class="form-container">
+            <div class="success-message d-none" id="successMessage">
+                <div class="icon-check success-icon"></div>
+                <h3>Thank You!</h3>
+                <p>Your enquiry has been submitted successfully. We'll get back to you soon.</p>
+            </div>
+
+            <form id="enquiryForm">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="enquiryTypeId">Enquiry Type <span class="required">*</span></label>
+                            <select id="enquiryTypeId" [(ngModel)]="newEnquiryObj.enquiryTypeId" name="enquiryTypeId" required class="form-select">
+                                <option value="">Select enquiry type</option>
+                                @for (item of typeList | async; track $index) {
+                                    <option [value]="item.typeId">{{item.typeName}}</option>
+
+                                }
+                            </select>
+                            <div class="error text-danger" id="enquiryTypeIdError"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="enquiryStatusId">Status <span class="required">*</span></label>
+                            <select id="enquiryStatusId" [(ngModel)]="newEnquiryObj.enquiryStatusId" name="enquiryStatusId" required class="form-select">
+                                <option value="">Select status</option>
+                                 @for (item of statusList| async; track $index) {
+                                    <option [value]="item.statusId">{{item.status}}</option>
+
+                                }
+                           
+                            </select>
+                            <div class="error text-danger" id="enquiryStatusIdError"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="customerName">Customer Name <span class="required">*</span></label>
+                    <div class="input-wrapper position-relative">
+                        <span class="input-icon icon-user"></span>
+                        <input type="text" [(ngModel)]="newEnquiryObj.customerName" id="customerName" name="customerName" placeholder="Enter your full name" required class="form-control">
+                    </div>
+                    <div class="error text-danger" id="customerNameError"></div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="mobileNo">Mobile Number <span class="required">*</span></label>
+                        <div class="input-wrapper position-relative">
+                            <span class="input-icon icon-phone"></span>
+                            <input type="tel" [(ngModel)]="newEnquiryObj.mobileNo" id="mobileNo" name="mobileNo" placeholder="+1 (555) 123-4567" required class="form-control">
+                        </div>
+                        <div class="error text-danger" id="mobileNoError"></div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <div class="input-wrapper position-relative">
+                            <span class="input-icon icon-mail"></span>
+                            <input type="email" [(ngModel)]="newEnquiryObj.email" id="email" name="email" placeholder="your@email.com" required class="form-control">
+                        </div>
+                        <div class="error text-danger" id="emailError"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="message">Message <span class="required">*</span></label>
+                    <div class="input-wrapper position-relative">
+                        <span class="input-icon icon-message"></span>
+                        <textarea id="message" [(ngModel)]="newEnquiryObj.message" name="message" placeholder="Please describe your enquiry in detail..." required class="form-control"></textarea>
+                    </div>
+                    <div class="error text-danger" id="messageError"></div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="resolution">Resolution Notes (Optional)</label>
+                    <div class="input-wrapper position-relative">
+                        <span class="input-icon icon-file"></span>
+                        <textarea id="resolution" [ngModel]="newEnquiryObj.resolution" name="resolution" placeholder="Any additional notes or resolution details..." class="form-control"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" (click)="onsave()" class="submit-btn" id="submitBtn">
+                    <span class="icon-send"></span>
+                    Submit Enquiry
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Optional: Bootstrap JS if needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

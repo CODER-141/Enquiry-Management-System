@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|f:\\program files\\github\\enquiry-app\\enquiry.api\\enquiry.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|solutionrelative:enquiry.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|f:\\program files\\github\\enquiry-app\\enquiry.api\\enquiry.api\\controllers\\enquirymastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|solutionrelative:enquiry.api\\controllers\\enquirymastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|f:\\program files\\github\\enquiry-app\\enquiry.api\\enquiry.api\\model\\enquirystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|solutionrelative:enquiry.api\\model\\enquirystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|f:\\program files\\github\\enquiry-app\\enquiry.api\\enquiry.api\\model\\enquirytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|solutionrelative:enquiry.api\\model\\enquirytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|f:\\program files\\github\\enquiry-app\\enquiry.api\\enquiry.api\\model\\enquirymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|solutionrelative:enquiry.api\\model\\enquirymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|f:\\program files\\github\\enquiry-app\\enquiry.api\\enquiry.api\\model\\enquirydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|solutionrelative:enquiry.api\\model\\enquirydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|f:\\program files\\github\\enquiry-app\\enquiry.api\\enquiry.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{146E5226-F74F-4454-9818-61D7050A21EF}|Enquiry.API\\Enquiry.API.csproj|solutionrelative:enquiry.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnquiryMasterController.cs",
+              "DocumentMoniker": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Controllers\\EnquiryMasterController.cs",
+              "RelativeDocumentMoniker": "Enquiry.API\\Controllers\\EnquiryMasterController.cs",
+              "ToolTip": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Controllers\\EnquiryMasterController.cs",
+              "RelativeToolTip": "Enquiry.API\\Controllers\\EnquiryMasterController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T10:19:44.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnquiryModel.cs",
+              "DocumentMoniker": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Model\\EnquiryModel.cs",
+              "RelativeDocumentMoniker": "Enquiry.API\\Model\\EnquiryModel.cs",
+              "ToolTip": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Model\\EnquiryModel.cs",
+              "RelativeToolTip": "Enquiry.API\\Model\\EnquiryModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:55:46.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnquiryType.cs",
+              "DocumentMoniker": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Model\\EnquiryType.cs",
+              "RelativeDocumentMoniker": "Enquiry.API\\Model\\EnquiryType.cs",
+              "ToolTip": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Model\\EnquiryType.cs",
+              "RelativeToolTip": "Enquiry.API\\Model\\EnquiryType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:50:32.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnquiryStatus.cs",
+              "DocumentMoniker": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Model\\EnquiryStatus.cs",
+              "RelativeDocumentMoniker": "Enquiry.API\\Model\\EnquiryStatus.cs",
+              "ToolTip": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Model\\EnquiryStatus.cs",
+              "RelativeToolTip": "Enquiry.API\\Model\\EnquiryStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:39:40.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Program.cs",
+              "RelativeDocumentMoniker": "Enquiry.API\\Program.cs",
+              "ToolTip": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Program.cs",
+              "RelativeToolTip": "Enquiry.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:32:01.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnquiryDbContext.cs",
+              "DocumentMoniker": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Model\\EnquiryDbContext.cs",
+              "RelativeDocumentMoniker": "Enquiry.API\\Model\\EnquiryDbContext.cs",
+              "ToolTip": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\Model\\EnquiryDbContext.cs",
+              "RelativeToolTip": "Enquiry.API\\Model\\EnquiryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T09:09:22.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Enquiry.API\\appsettings.json",
+              "ToolTip": "F:\\Program Files\\GitHub\\Enquiry-App\\Enquiry.API\\Enquiry.API\\appsettings.json",
+              "RelativeToolTip": "Enquiry.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-06T08:18:34.373Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
